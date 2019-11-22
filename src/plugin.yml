@@ -1,0 +1,26 @@
+name: MainPlugin
+version: 1.0.3
+author: Skerret_Wapsbeer
+description: Main Plugin for server
+main: com.server.plugin.MainPlugin
+prefix: MainPlugin
+
+commands:
+  spawn:
+    usage: /<command>
+    description: Teleports you to spawn
+  lobby:
+    usage: /<command>
+    description: Teleports you to spawn
+  points:
+    usage: /<command> [<give|remove><player><amount><reason>]
+    description: Gives of takes an amount of points from a player
+  help:
+    usage: /<command>
+    description: Sends you to the help place
+  play:
+    usage: /<command>
+    description: Sends you to the play area.
+  office:
+    usage: /<command>
+    description: Sends you to the office
